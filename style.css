@@ -43,8 +43,8 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    border-bottom: none;
-    margin-bottom: 0;
+    border-bottom: none;  /* usuwa ewentualną linię pod headerem */
+    margin-bottom: 0;     /* upewnia się, że nie ma marginesu dolnego */
 }
 
 .header-container {
@@ -227,9 +227,7 @@ footer .social-media a:hover {
 
 /* Stylizacja sekcji hero */
 #hero {
-    margin-top: 0;
-    position: relative;
-    top: -1px;       
+    margin-top: 0;         /* usuwa domyślny margines z góry */
     padding: 130px 20px 60px;
     text-align: center;
     color: #ffffff;
@@ -598,4 +596,3 @@ main {
     margin: 0 auto 30px;
     line-height: 1.8;
 }
-
